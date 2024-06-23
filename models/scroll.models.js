@@ -41,10 +41,7 @@ const tableScroll=mongoose.Schema({
             required: true,
             
         },
-        Date: {
-            type: Number,
-            required: true
-        },
+        
         nationality: {
             type: String,
             required: true
@@ -56,15 +53,19 @@ const tableScroll=mongoose.Schema({
         },
         
         token: {
-            type: Number,
+            type: String,
             required: true
         },
         closure: {
-            type: Number,
+            type: String,
             required: true
         },
         booking: {
-            type: Number,
+            type: String,
+            required: true
+        },
+        Date: {
+            type: String,
             required: true
         },
 
@@ -72,6 +73,7 @@ const tableScroll=mongoose.Schema({
         isActive:{
             type: Boolean
         },
+
        
        
     
